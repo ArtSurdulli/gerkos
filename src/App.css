@@ -1,0 +1,13 @@
+
+.first-section{
+  background-color:#FADC18  ;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #cecaca6b; 
+  padding-right: 15px;
+  height: 100px; /* Optionally, set the height to 100% if you want the content centered vertically */
+}

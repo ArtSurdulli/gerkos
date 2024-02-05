@@ -1,0 +1,126 @@
+.steps {
+  background-color: #f7f7f7;
+  width: 100%;
+  padding: 2rem 0;
+
+  h1 {
+    font-weight: 600;
+    font-size: max(25px, 2.75vw);
+    text-align: center;
+  }
+}
+
+.hr-steps {
+  background-color: #fadc18;
+  width: 90px;
+  height: 5px;
+  border-radius: 5px;
+}
+
+.card-steps {
+  border: 1px solid black;
+  /* height: 100px; */
+}
+
+.card-steps2 {
+  display: flex;
+}
+
+.steps-card {
+  display: flex;
+}
+
+.step-by-step-title {
+  font-size: max(1.5rem, 2vw);
+  text-align: center;
+}
+
+.firstNumber {
+  font-size: 80px;
+  color: lightgrey;
+}
+
+/* .contet-steps{
+    width: 250px;
+} */
+
+.steps-row {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  padding: 3rem 5%;
+  justify-content: space-between;
+}
+
+.steps-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 25%;
+  padding: 0 2.5%;
+}
+
+.firstNumber {
+  position: absolute;
+  font-weight: 600;
+  left: -10px;
+  bottom: -75px;
+  font-size: 200px;
+  line-height: normal;
+  z-index: 1;
+  color: #efefef;
+}
+
+.steps-card-col {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  gap: 1rem;
+}
+
+.steps-card-title {
+  font-size: max(1rem, 1.5vw);
+  line-height: 2rem;
+}
+
+.steps-card-text {
+  font-size: max(0.75rem, 1vw);
+  line-height: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .steps-row {
+    flex-direction: column;
+    padding: 3rem 20%;
+  }
+
+  .steps-card {
+    width: 100%;
+    margin: 2rem 0;
+    text-align: center;
+  }
+
+  .steps-card-col {
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .firstNumber {
+    font-size: 100px;
+    bottom: -50px;
+  }
+
+  .steps-card-title {
+    text-align: center;
+    width: 100%;
+    font-size: max;
+  }
+}
+
+@media (max-width: 500px) {
+  .steps-row {
+    flex-direction: column;
+    padding: 1rem 5%;
+  }
+}

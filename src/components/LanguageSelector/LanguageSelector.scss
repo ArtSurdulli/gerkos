@@ -1,0 +1,16 @@
+.LanguageSelector {
+  display: flex;
+  align-items: stretch;
+  gap: max(0.5rem, 1vw);
+
+  button {
+    width: 3rem;
+    height: 2rem;
+    overflow: hidden;
+
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

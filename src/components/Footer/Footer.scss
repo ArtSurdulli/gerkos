@@ -1,0 +1,122 @@
+.hr-steps {
+  background-color: #fadc18;
+  /* width: 120px; */
+  height: 3px;
+  border-radius: 5px;
+  margin: 1rem 0;
+}
+
+.footer {
+  background-color: rgba(244, 238, 238, 0.549);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: max(3rem, 5vw);
+
+  &-top {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: max(2rem, 10vw);
+
+    @media (max-width: 1200px) {
+      flex-direction: column;
+      gap: max(1rem, 5vw);
+    }
+
+    &-left {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+
+      img {
+        width: 10rem;
+        height: auto;
+      }
+
+      @media (max-width: 870px) {
+        flex-direction: column;
+        gap: max(1rem, 1vw);
+        align-items: center;
+        text-align: center;
+      }
+    }
+
+    &-right {
+      display: flex;
+      align-items: stretch;
+      flex-wrap: nowrap;
+      gap: max(1rem, 5vw);
+
+      @media (max-width: 870px) {
+        flex-direction: column;
+        gap: max(1.5rem, 2vw);
+        align-items: center;
+        text-align: center;
+      }
+
+      &-card {
+        display: flex;
+        flex-direction: column;
+
+        @media (max-width: 870px) {
+          align-items: center;
+        }
+        h3 {
+          font-size: max(20px, 1.75vw);
+          font-weight: 700;
+        }
+
+        p {
+          font-size: max(16px, 1.25vw);
+          font-weight: 500;
+        }
+
+        &-row {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          gap: max(0.5rem, 1vw);
+          a {
+            font-size: max(20px, 2.5vw);
+          }
+        }
+      }
+    }
+  }
+
+  &-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 870px) {
+      flex-direction: column;
+      gap: max(1rem, 1vw);
+      align-items: center;
+      text-align: center;
+    }
+
+    p {
+      font-size: max(14px, 0.85vw);
+    }
+
+    span {
+      display: flex;
+      align-items: flex-end;
+      gap: 0.25rem;
+      img {
+        width: 2rem;
+        height: 1.25rem;
+      }
+    }
+
+    &-right {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+}
