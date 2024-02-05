@@ -1,14 +1,36 @@
-import React, { useState } from "react";
+import React, { useRef } from "react";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import ContactBanner from "../components/Contact/ContactBanner";
-
+import emailjs from "@emailjs/browser";
 import "./pages.scss";
 function ContactUs() {
-  const [formState, setFormState] = useState({});
+  // const [formState, setFormState] = useState({});
 
-  const handleChange = (event) => {
-    setFormState({ ...formState, [event.target.name]: event.target.value });
+  // const handleChange = (event) => {
+  //   setFormState({ ...formState, [event.target.name]: event.target.value });
+  // };
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_doqwofp",
+        "template_pnqpgju",
+        form.current,
+        "75nWHhEjk4IVM0yD8"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("send");
+          form.current.reset();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
   return (
     <>
@@ -38,21 +60,21 @@ function ContactUs() {
           <div class="right-side">
             <div class="topic-text">Send us a message</div>
             <p>Feel free tp contact us in any time </p>
-            <form action="#">
+            <form ref={form} onSubmit={sendEmail} action="#">
               <div class="input-box">
                 <input
                   type="text"
-                  name="name"
+                  name="user_name"
                   placeholder="Enter your name"
-                  onChange={handleChange}
+                  // onChange={handleChange}
                 />
               </div>
               <div class="input-box">
                 <input
                   type="email"
-                  name="email"
+                  name="user_email"
                   placeholder="Enter your email"
-                  onChange={handleChange}
+                  // onChange={handleChange}
                 />
               </div>
               <div class="input-box message-box">
@@ -62,11 +84,12 @@ function ContactUs() {
                   id=""
                   cols="30"
                   rows="10"
-                  onChange={handleChange}
+                  placeholder="Enter message"
+                  // onChange={handleChange}
                 ></textarea>
               </div>
               <div class="button">
-                <input type="button" value="Send Now" />
+                <input type="submit" value="Send Now" />
               </div>
             </form>
           </div>
