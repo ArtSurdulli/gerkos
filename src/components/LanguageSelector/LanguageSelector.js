@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import "./LanguageSelector.scss";
-import xk from "../../img/xk.png";
+import al from "../../img/alb.webp";
 import de from "../../img/de.png";
 
 const LanguageSelector = () => {
@@ -14,7 +14,7 @@ const LanguageSelector = () => {
   return (
     <div className="LanguageSelector">
       <button onClick={() => changeLanguage("sq")}>
-        <img src={xk} alt="Kosovo flag" />
+        <img src={al} alt="Albania flag" />
       </button>
       <button onClick={() => changeLanguage("de")}>
         <img src={de} alt="German flag" />

@@ -5,8 +5,11 @@ import "./pages.scss";
 import Footer from "../components/Footer/Footer";
 import AboutUsBanner from "../components/AboutUsBanner/AboutUsBanner";
 import { FaInstagramSquare, FaFacebook, FaLinkedin } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 function AboutUs() {
+  const { t } = useTranslation();
   return (
     <>
       <Navbar />
@@ -15,14 +18,9 @@ function AboutUs() {
         <div className="container-aboutus">
           <div className="row-aboutus">
             <div className="flex-aboutus">
-              <h2>About Us</h2>
-              <h3>Discover our team</h3>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Accusantium optio harum earum ullam enim adipisci suscipit, illo
-                maxime nulla unde omnis facere voluptatem esse ipsum impedit
-                pariatur modi excepturi aut.
-              </p>
+              <h2>{t("aboutus-page-title")}</h2>
+              <h3>{t("aboutus-page-title-2")}</h3>
+              <p>{t("aboutus-page-text")}</p>
               <div className="social-links">
                 <a
                   target="_blank"
@@ -48,9 +46,9 @@ function AboutUs() {
                   <FaLinkedin />
                 </a>
               </div>
-              <a href="" className="btn">
-                Contact us
-              </a>
+              <Link to="/contactus" className="btn">
+                {t("contactus-page-title")}
+              </Link>
             </div>
             <div className="flex-aboutus">
               <img src={Logo} alt="" />
@@ -61,7 +59,7 @@ function AboutUs() {
 
       <section>
         <div class="row">
-          <h1>Our Team</h1>
+          <h1>{t("aboutus-page-team-title")}</h1>
         </div>
         <div className="row">
           <div className="column">

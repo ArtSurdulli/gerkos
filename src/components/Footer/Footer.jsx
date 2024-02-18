@@ -59,11 +59,6 @@ function Footer() {
       <div className="footer-bottom">
         <p>{t("footer-bottom-1")}</p>
 
-        <span>
-          <p>{t("footer-bottom-2")}</p>
-          <img src={MiniLogo} alt="SEI" />
-        </span>
-
         <div className="footer-bottom-right">
           <p>{t("footer-bottom-3-1")}</p>
           <p>{t("footer-bottom-3-2")}</p>

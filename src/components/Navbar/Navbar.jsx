@@ -25,7 +25,7 @@ const Navbar = () => {
 
   // Array containing navigation items
   const navItems = [
-    { id: 1, text: t("navbar-link-1"), to: "/" },
+    { id: 1, text: t("navbar-link-1"), to: "/interested" },
     { id: 2, text: t("navbar-link-2") },
     { id: 3, text: t("navbar-link-3"), to: "/aboutus" },
     { id: 4, text: t("navbar-link-4"), to: "/contact" },
@@ -35,9 +35,9 @@ const Navbar = () => {
   return (
     <>
       <div className="flex justify-between items-center h-10 relative mx-auto px-4 mt-3">
-        <div className="flex ">
+        <Link to="/" className="flex ">
           <img className="mx-auto h-12" src={Logo} alt="" />
-        </div>
+        </Link>
 
         <div className="flex mr-5">
           {/* <img className="mx-auto h-6" src={KosovoIcon} alt="" />
@@ -91,7 +91,7 @@ const Navbar = () => {
             type="button"
             class="sm:mt-3 focus:outline-none mt-3 ml-10 text-black bg-yellow-400  font-medium rounded-lg text-sm px-5 sm:py-2 py-2 me-2 mb-2"
           >
-            Bewerbung
+            {t("navbar-button")}
           </button>
         </ul>
 
