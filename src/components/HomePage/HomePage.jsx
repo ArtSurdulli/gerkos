@@ -14,10 +14,10 @@ function HomePage() {
     <>
       <Navbar />
       <Banner />
-      {/* <Requirements /> */}
+      <Requirements />
       <Description />
-      <Steps />
-      <Slider />
+      {/* <Steps /> */}
+      {/* <Slider /> */}
       <Contact />
       <Footer />
     </>
