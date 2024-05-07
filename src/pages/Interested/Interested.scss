@@ -128,3 +128,24 @@
     }
   }
 }
+
+
+
+.Description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem max(1rem, 5%);
+  text-align: center;
+
+  h1 {
+    font-weight: 600;
+    font-size: max(25px, 2.75vw);
+  }
+}
+.hr-description {
+  background-color: #fadc18;
+  width: 90px;
+  height: 5px;
+  border-radius: 5px;
+}

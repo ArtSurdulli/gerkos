@@ -10,6 +10,9 @@ import img3 from "../../img/interested3.webp";
 import img4 from "../../img/interested4.jpg";
 import img5 from "../../img/interested5.png";
 import img6 from "../../img/interested6.jpeg";
+import InterestedBanner from "./InterestedBanner";
+import Contact from "../../components/Contact/Contact";
+import { ApartmentOutlined, EuroOutlined, FileDoneOutlined, MoneyCollectOutlined, ReadOutlined } from "@ant-design/icons";
 
 function Interested() {
   const { t } = useTranslation();
@@ -17,59 +20,58 @@ function Interested() {
   const interestedData = [
     {
       id: 1,
-      title: t("interested-card1-title-1"),
+      title: "Für Berufstätige",
       img: img1,
-      text1: t("interested-card1-text-1"),
-      text2: t("interested-card1-text-2"),
+      text1:
+        "Wir suchen Bewerber mit beruflicher Praxis, die ihre Kompetenz in der Arbeitswelt bereits unter Beweis gestellt haben.",
+      text2: t("interested-card2-text-2"),
     },
     {
       id: 2,
-      title: t("interested-card2-title-1"),
+      title: "Für Universitätsabsolventen",
       img: img2,
-      text1: t("interested-card2-text-1"),
+      text1:
+        "Absolventen mit akademischer Bildung, die bereit sind, ihr Wissen in praktische Erfolge umzusetzen.",
       text2: t("interested-card2-text-2"),
     },
     {
       id: 3,
-      title: t("interested-card3-title-1"),
+      title: "Für Ausbildungsabsolventen",
       img: img3,
-      text1: t("interested-card3-text-1"),
+      text1:
+        "Engagierte Fachkräfte mit abgeschlossener Berufsausbildung, die nach neuen Herausforderungen streben.",
       text2: t("interested-card3-text-2"),
-    },
-    {
-      id: 4,
-      title: t("interested-card4-title-1"),
-      img: img4,
-      text1: t("interested-card4-text-1"),
-      text2: t("interested-card4-text-2"),
-    },
-    {
-      id: 5,
-      title: t("interested-card5-title-1"),
-      img: img5,
-      text1: t("interested-card5-text-1"),
-      text2: t("interested-card5-text-2"),
-    },
-    {
-      id: 6,
-      title: t("interested-card6-title-1"),
-      img: img6,
-      text1: t("interested-card6-text-1"),
-      text2: t("interested-card6-text-2"),
     },
   ];
 
   return (
     <div className="interestedPage">
       <Navbar />
-      <div className="interestedPage-banner">
-        <div className="bg"></div>
+      <InterestedBanner />
 
-        <h1>{t("interestedPage-banner-title")}</h1>
-        <h3>{t("interestedPage-banner-text")}</h3>
+      <div className="Description">
+      <div className="hr-description mt-3"></div>
+      <div>
+        <p className="text-center max-w-7xl	mt-4">
+        Egal ob du bereits voll im Berufsleben stehst, frisch die
+            Universität absolviert hast oder oder eine abgeschlossene
+            Berufsausbildung vorweisen kannst – unser Konzept ist dein Weg nach
+            Deutschland.
+        </p>
       </div>
-
+      </div>
       <div className="row">
+        <h1>Dich suchen wir!</h1>
+{/* 
+        <div>
+          <p>
+            Egal ob du bereits voll im Berufsleben stehst, frisch die
+            Universität absolviert hast oder oder eine abgeschlossene
+            Berufsausbildung vorweisen kannst – unser Konzept ist dein Weg nach
+            Deutschland.
+          </p>
+        </div> */}
+
         {interestedData.map((card, i) => {
           return (
             <InterestedCards
@@ -77,11 +79,118 @@ function Interested() {
               title={card.title}
               img={card.img}
               text1={card.text1}
-              text2={card.text2}
+              text2=""
             />
           );
         })}
       </div>
+      <div className="row">
+        <h1>Deine Vorteile mit GERKOS:</h1>
+        <div class="flex flex-wrap justify-center">
+          <div class="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
+            <div class="px-6 py-4">
+              <div  class="flex justify-center mb-4">
+              <EuroOutlined class="text-4xl"/> 
+              </div>
+              <div class="font-bold text-xl mb-2">
+                KEINE Kosten für unsere Leistungen!
+              </div>
+            </div>
+          </div>
+
+          <div class="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
+            <div class="px-6 py-4">
+              <div class="flex justify-center mb-4">
+              <ReadOutlined class="text-4xl"/>
+              </div>
+              <div class="font-bold text-xl mb-2">
+                Anerkennung deines Abschlusses in Deutschland
+              </div>
+            </div>
+          </div>
+          <div class="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
+            <div class="px-6 py-4">
+              <div class="flex justify-center mb-4">
+              <FileDoneOutlined class="text-4xl"/>
+              </div>
+              <div class="font-bold text-xl mb-2">
+                Garantierter Arbeitsvertrag
+              </div>
+            </div>
+          </div>
+          <div class="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
+            <div class="px-6 py-4">
+              <div class="flex justify-center mb-4">
+              <ApartmentOutlined class="text-4xl"/>
+              </div>
+              <div class="font-bold text-xl mb-2">Attraktive Arbeitsstelle</div>
+            </div>
+          </div>
+          <div class="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
+            <div class="px-6 py-4">
+              <div class="flex justify-center mb-4">
+              <MoneyCollectOutlined class="text-4xl"/>
+              </div>
+              <div class="font-bold text-xl mb-2">
+                Entgelt nach deutschem Tari
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="row">
+        <h1>Ein kleiner Auszug unserer Berufsgruppen:</h1>
+        <div class="flex flex-wrap justify-center">
+          <div class="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2 mt-3">HandWerk</div>
+              <p class="text-gray-700 text-base">
+                See all the profesion related with this field
+              </p>
+              <p class="text-gray-500 text-sm mt-2">See More</p>
+            </div>
+          </div>
+          <div class="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2 mt-3">IT</div>
+              <p class="text-gray-700 text-base">
+                See all the profesion related with this field
+              </p>
+              <p class="text-gray-500 text-sm mt-2">See More</p>
+            </div>
+          </div>
+
+          <div class="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2 mt-3">Medizin</div>
+              <p class="text-gray-700 text-base">
+                See all the profesion related with this field
+              </p>
+              <p class="text-gray-500 text-sm mt-2">See More</p>
+            </div>
+          </div>
+          <div class="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2 mt-3">  Ingenieurwesen</div>
+              <p class="text-gray-700 text-base">
+                See all the profesion related with this field
+              </p>
+              <p class="text-gray-500 text-sm mt-2">See More</p>
+            </div>
+          </div>
+          <div class="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2 mt-3">Gastgewerbe
+              </div>
+              <p class="text-gray-700 text-base">
+                See all the profesion related with this field
+              </p>
+              <p class="text-gray-500 text-sm mt-2">See More</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Contact/>
       <Footer />
     </div>
   );

@@ -17,7 +17,6 @@ function InterestedCards(props) {
             {props.text2}
           </p>
         </div>
-        <Link to="/contact">{t("home-blog-link")}</Link>
       </div>
     </div>
   );

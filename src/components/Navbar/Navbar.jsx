@@ -25,11 +25,11 @@ const Navbar = () => {
 
   // Array containing navigation items
   const navItems = [
-    { id: 1, text: t("navbar-link-1"), to: "/interested" },
-    { id: 2, text: t("navbar-link-2") },
-    { id: 3, text: t("navbar-link-3"), to: "/aboutus" },
-    { id: 4, text: t("navbar-link-4"), to: "/contact" },
-    { id: 5, text: t("navbar-link-5") },
+    { id: 1, text: t("navbar-link-1"), to: "/" },
+    { id: 2, text: t("navbar-link-2"), to: "/interested" },
+    { id: 3, text: t("navbar-link-3") },
+    { id: 4, text: t("navbar-link-4"), to: "/aboutus" },
+    { id: 5, text: t("navbar-link-5"), to: "/contact" },
   ];
 
   return (

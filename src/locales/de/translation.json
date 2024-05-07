@@ -1,9 +1,9 @@
 {
-  "navbar-link-1": "Für Interessierte",
-  "navbar-link-2": "Für Unternehmen",
-  "navbar-link-3": "Home",
-  "navbar-link-4": "Kontakt",
-  "navbar-link-5": "Blog",
+  "navbar-link-1": "GERKOS",
+  "navbar-link-2": "Bewerber-Interessierte",
+  "navbar-link-3": "Fur Unternehmen ",
+  "navbar-link-4": "About Us",
+  "navbar-link-5": "Kontakt",
   "navbar-button": "Bewerbung",
 
   "home-banner-title-1": "Gemeinsam Perspektiven",
@@ -19,10 +19,10 @@
   "home-requirements-monate": "Monate",
 
   "home-description-title": "Fachkräfte aus dem Kosovofür Deutschland",
-  "home-description-text-1": "Willkommen bei GERKOS - Ihr zuverlässiger Partner für Fachkräfte aus dem Kosovo für deutsche Unternehmen! GERKOS, gegründet im Jahr 2023, ist eine dynamische Personalvermittlungsagentur mit dem Fokus auf die Integration hochqualifizierter Fachkräfte aus dem Kosovo in den deutschen Arbeitsmarkt. Unser Engagement liegt darin, nicht nur Talente zu finden, sondern nachhaltige Erfolgsgeschichten für Unternehmen und Fachkräfte gleichermaßen zu gestalten.",
-  "home-description-text-2": "Als Bindeglied zwischen Kosovo und Deutschland hat sich GERKOS zum Ziel gesetzt, die Bedürfnisse deutscher Unternehmen mit dem reichen Potenzial an Fachkenntnissen und Qualifikationen aus dem Kosovo zu verbinden. Wir verstehen die Herausforderungen des globalen Arbeitsmarkts und sind stolz darauf, eine effiziente Lösung für die wachsende Nachfrage nach Fachkräften zu bieten.",
-  "home-description-text-3": "Unsere Expertise reicht von der sorgfältigen Auswahl hochqualifizierter Kandidaten bis hin zur Unterstützung bei der reibungslosen Integration in den deutschen Arbeitsalltag. Bei GERKOS steht nicht nur die Rekrutierung im Vordergrund, sondern auch die nachhaltige Entwicklung von Beziehungen, die auf Vertrauen, Professionalität und gemeinsamem Erfolg basieren. ",
-  "home-description-text-4": "Entdecken Sie die Potenziale einer vielfältigen und dynamischen Belegschaft mit GERKOS. Wir sind bereit, gemeinsam mit Ihnen die nächste Stufe der beruflichen Exzellenz zu erklimmen. Kontaktieren Sie uns jetzt, und lassen Sie uns zusammen Innovation durch Vielfalt gestalten!",
+  "home-description-text-1": "Herzlich willkommen auf der Plattform, die Unternehmen und hochqualifizierte Fachkräfte aus dem Kosovo zusammenbringt! Bei GERKOS verfolgen wir das Ziel, nicht nur die besten Talente für Ihr Unternehmen zu finden, sondern auch individuelle Karrierewege für die Bewerber zu gestalten.",
+  "home-description-text-2": "Für Bewerber: Träumen Sie von neuen beruflichen Perspektiven in Deutschland? Bei GERKOS finden Sie nicht nur vielfältige Karrieremöglichkeiten in nahezu allen Berufsgruppen, sondern auch Unterstützung bei der Integration und attraktive Arbeitsbedingungen. Starten Sie Ihre berufliche Reise mit uns!",
+  "home-description-text-3": "Für Unternehmen: Sind Sie auf der Suche nach herausragenden Fachkräften, die Ihr Team stärken und Ihr Unternehmen voranbringen? GERKOS bietet Ihnen eine exklusive Auswahl an hochqualifizierten Talenten aus dem Kosovo. Entdecken Sie die Vorteile einer Zusammenarbeit mit uns – von exzellenter Fachkompetenz bis hin zu kultureller Vielfalt.",
+  "home-description-text-4": "Entdecken Sie die Synergieeffekte einer Zusammenarbeit mit GERKOS. Lassen Sie uns gemeinsam die Zukunft gestalten. Wir sind Ihr zuverlässiger Partner für erfolgreiche Vermittlungen und individuelle Karriereentwicklung!",
 
   "home-steps-title": " Step-By-Step zu Ihren neuen Fachkräften",
 
@@ -57,8 +57,8 @@
   "footer-bottom-3-2": "Impressum",
   "footer-bottom-3-3": "Datenschutz",
 
-  "interestedPage-banner-title": "Für Interessierte",
-  "interestedPage-banner-text": "Diejenigen, die sich für Arbeit interessieren",
+  "interestedPage-banner-title": "Arbeiten in Deutschland. Deine Chance!",
+  "interestedPage-banner-text": "Deine berufliche Zukunft beginnt hier! Entdecke spannende Karrieremöglichkeiten und beginne ein neues Leben in Deutschland. Kontaktiere uns jetzt und gestalte deine Zukunft!",
   "interested-card1-title-1": "Ingenieure",
   "interested-card1-text-1": "Ingenieure sind in Deutschland sehr gefragt, insbesondere Elektro-, Maschinenbau- und Bauingenieure. Der hohe Bedarf an Ingenieuren ist auf die florierende Automobil- und Maschinenindustrie zurückzuführen.",
   "interested-card1-text-2": "Wenn Sie also über Kenntnisse im Ingenieurwesen verfügen, können Sie einige hochbezahlte Jobs im Land ergattern. Das durchschnittliche Jahresgehalt für Profile im Ingenieurbereich beträgt 65.000 €.",
@@ -89,8 +89,12 @@
   "contactus-page-input-3": "Nachricht eingeben",
   "contactus-page-button": "Schick jetzt",
 
-  "aboutus-page-title": "Über uns",
-  "aboutus-page-title-2": "Entdecken Sie unser Team",
-  "aboutus-page-text": "lorem",
-  "aboutus-page-team-title": "Unser Team"
+  "aboutus-page-title": "Unsere Mission: Brücken bauen, Talente verbinden",
+  "aboutus-page-text": "Unsere Mission besteht darin, eine Brücke zwischen Unternehmen in Deutschland und hochqualifizierten Fachkräften im Kosovo zu schlagen. Wir sind spezialisiert auf die Branchen Handwerk, IT, Medizin, Ingenieurwesen und Gastgewerbe und bieten sowohl Bewerbern als auch Unternehmen einen vollumfänglichen Support, von der ersten Kontaktaufnahme bis zur erfolgreichen Einstellung und darüber hinaus. Durch sorgfältige Auswahl und individuelle Beratung stellen wir sicher, dass unsere Vermittlungen den Bedürfnissen und Erwartungen sowohl der Unternehmen als auch der Fachkräfte gerecht werden.",
+  "aboutus-page-team-title": "Unser Team",
+  "aboutus-page-text-team":  "Hinter GERKOS steht ein Team aus erfahrenen Beratern, die sich durch Leidenschaft für ihre Arbeit und ein tiefes Verständnis für die Anforderungen des internationalen Arbeitsmarktes auszeichnen. Unser Team arbeitet eng mit beiden Seiten – Fachkräften und Unternehmen – zusammen, um sicherzustellen, dass jede Vermittlung nicht nur den Qualifikationen entspricht, sondern auch eine langfristige Zufriedenheit gewährleistet."
 }
+
+
+
+

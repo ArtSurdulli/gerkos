@@ -14,8 +14,8 @@ function HomePage() {
     <>
       <Navbar />
       <Banner />
-      <Requirements />
       <Description />
+      <Requirements />
       {/* <Steps /> */}
       {/* <Slider /> */}
       <Contact />
