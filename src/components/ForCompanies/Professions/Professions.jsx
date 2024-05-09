@@ -21,26 +21,23 @@ function Professions() {
   const interestedData = [
     {
       id: 1,
-      title: "Für Berufstätige",
+      title: t('interestedPage-profesions'),
       img: img1,
-      text1:
-        "Wir suchen Bewerber mit beruflicher Praxis, die ihre Kompetenz in der Arbeitswelt bereits unter Beweis gestellt haben.",
+      text1:t('interestedPage-profesions-content'),
       text2: t("interested-card2-text-2"),
     },
     {
       id: 2,
-      title: "Für Universitätsabsolventen",
+      title: t('interestedPage-profesions1'),
       img: img2,
-      text1:
-        "Absolventen mit akademischer Bildung, die bereit sind, ihr Wissen in praktische Erfolge umzusetzen.",
+      text1:t('interestedPage-profesions-content1'),
       text2: t("interested-card2-text-2"),
     },
     {
       id: 3,
-      title: "Für Ausbildungsabsolventen",
+      title: t('interestedPage-profesions2'),
       img: img3,
-      text1:
-        "Engagierte Fachkräfte mit abgeschlossener Berufsausbildung, die nach neuen Herausforderungen streben.",
+      text1:t('interestedPage-profesions-content2'),
       text2: t("interested-card3-text-2"),
     },
   ];
@@ -48,7 +45,7 @@ function Professions() {
   return (
     <div className="ForCompanies--Professions">
       <div className="row">
-        <h1>Dich suchen wir!</h1>
+        <h1>{t('interestedPage-card-title')}</h1>
         {/* 
         <div>
           <p>
@@ -72,7 +69,7 @@ function Professions() {
         })}
       </div>
       <div className="row">
-        <h1>Deine Vorteile mit GERKOS:</h1>
+        <h1>{t('gerkos-vorteile')}</h1>
         <div className="flex flex-wrap justify-center w-full">
           <div className="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
             <div className="px-6 py-4">
@@ -83,7 +80,7 @@ function Professions() {
                 />
               </div>
               <div className="font-bold text-xl mb-2">
-                KEINE Kosten für unsere Leistungen!
+               {t('gerkos-advance1')}
               </div>
             </div>
           </div>
@@ -97,7 +94,8 @@ function Professions() {
                 />
               </div>
               <div className="font-bold text-xl mb-2">
-                Anerkennung deines Abschlusses in Deutschland
+              {t('gerkos-advance2')}
+
               </div>
             </div>
           </div>
@@ -111,7 +109,8 @@ function Professions() {
                 />
               </div>
               <div className="font-bold text-xl mb-2">
-                Garantierter Arbeitsvertrag
+               {t('gerkos-advance3')}
+                
               </div>
             </div>
           </div>
@@ -125,7 +124,8 @@ function Professions() {
                 />
               </div>
               <div className="font-bold text-xl mb-2">
-                Attraktive Arbeitsstelle
+              {t('gerkos-advance4')}
+              
               </div>
             </div>
           </div>
@@ -139,7 +139,8 @@ function Professions() {
                 />
               </div>
               <div className="font-bold text-xl mb-2">
-                Entgelt nach deutschem Tarif
+               {t('gerkos-advance5')}
+                
               </div>
             </div>
           </div>

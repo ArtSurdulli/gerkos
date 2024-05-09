@@ -19,7 +19,7 @@ function Talent() {
       <p>{t("forCompanies--talent-paragraph-10")}</p>
       <p>{t("forCompanies--talent-paragraph-11")}</p>
       <p>{t("forCompanies--talent-paragraph-12")}</p>
-      <p>{t("forCompanies--talent-paragraph-13")}</p>
+      {/* <p>{t("forCompanies--talent-paragraph-13")}</p> */}
     </div>
   );
 }

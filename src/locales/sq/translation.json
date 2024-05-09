@@ -1,16 +1,17 @@
 {
-  "navbar-link-1": "Për të interesuarit",
-  "navbar-link-2": "Për kompanitë",
-  "navbar-link-3": "Ballina",
-  "navbar-link-4": "Kontaktoni",
-  "navbar-link-5": "Blog",
+  "navbar-link-2": "Për të interesuarit",
+  "navbar-link-3": "Për kompanitë",
+  "navbar-link-1": "Ballina",
+  "navbar-link-4": "Rreth Nesh",
+  "navbar-link-5": "Kontaktoni",
   "navbar-button": "Aplikoni",
 
-  "home-banner-title-1": "Inovacioni fillon me diversitetin",
+  "home-banner-title-1": "Perspektiva të përbashkëta",
   "home-banner-title-2": "Partneri juaj i besueshëm për punëtorët e kualifikuar ",
   "home-banner-title-3": "nga Kosova për kompanitë gjermane.",
   "home-banner-button": "Kontaktoni",
-
+    
+  "home-requirements-title": "Sukseset tona",
   "home-requirements-1": "Specialistët e vendosur p.a.",
   "home-requirements-2": "Niveli i gjuhës d. Punëtorët e kualifikuar",
   "home-requirements-3": "Përmes. Kohëzgjatja deri në punësim",
@@ -19,10 +20,10 @@
   "home-requirements-monate": "Muaj",
 
   "home-description-title": "Punonjës të kualifikuar nga Kosova për në Gjermani",
-  "home-description-text-1": "Mirë se vini në GERKOS - partneri juaj i besueshëm për punëtorët e kualifikuar Kosova për kompanitë gjermane! GERKOS, e themeluar në vitin 2023, është një agjenci dinamike rekrutimi me fokus në Integrimi i specialistëve të kualifikuar nga Kosova në tregun gjerman i punës. Përkushtimi ynë qëndron në këtë, jo vetëm Jo vetëm për të gjetur talente, por edhe histori të qëndrueshme suksesi Për të formuar kompanitë dhe specialistët njësoj.",
-  "home-description-text-2": "Si një lidhje ndërmjet Kosovës dhe Gjermanisë, GERKOS i ka vënë vetes synimin që të plotësojë nevojat e kompanive gjermane me potencialin e tyre të pasur. Për të kombinuar njohuritë e specializuara dhe kualifikimet nga Kosova. Ne i kuptojmë sfidat e tregut global të punës dhe jemi krenarë që jemi të tillë për të ofruar një zgjidhje efikase ndaj kërkesës në rritje për punëtorë të kualifikuar.",
-  "home-description-text-3": "Ekspertiza jonë varion nga përzgjedhja e kujdesshme e kandidatëve shumë të kualifikuar për të mbështetur me integrim të qetë në atë gjerman punë e përditshme. Në GERKOS, fokusi nuk është vetëm në rekrutimin, por edhe në zhvillimin e qëndrueshëm të marrëdhënieve të bazuara në besim, Profesionalizmi dhe suksesi i ndërsjellë bazohen.",
-  "home-description-text-4": "Zbuloni potencialin e një fuqie punëtore të larmishme dhe dinamike me GERKOS. Ne jemi gati të marrim nivelin tjetër të karrierës suaj së bashku me ju për të arritur përsosmërinë. Na kontaktoni tani dhe le të formojmë inovacionin përmes diversitetit së bashku!",
+  "home-description-text-1": "Mirë se vini në platformën që bashkon kompanitë dhe specialistë të kualifikuar nga Kosova! Në GERKOS, qëllimi ynë nuk është vetëm të gjejmë talentin më të mirë për kompaninë tuaj, por edhe të hartojmë shtigje individuale karriere për aplikantët..",
+  "home-description-text-2": "Për aplikantët: A po ëndërroni për perspektiva të reja karriere në Gjermani? Në GERKOS do të gjeni jo vetëm një gamë të gjerë mundësish karriere në pothuajse të gjitha grupet profesionale, por edhe mbështetje me integrim dhe kushte atraktive pune. Filloni udhëtimin tuaj profesional me ne!",
+  "home-description-text-3": "Për kompanitë: A po kërkoni specialistë të shquar që do të forcojnë ekipin tuaj dhe do të avancojnë kompaninë tuaj? GERKOS ju ofron një përzgjedhje ekskluzive të talenteve të kualifikuar nga Kosova. Zbuloni avantazhet e punës me ne – nga ekspertiza e shkëlqyer teknike deri te diversiteti kulturor.",
+  "home-description-text-4": "Zbuloni efektet e sinergjisë së punës me GERKOS. Le ta formojmë të ardhmen së bashku. Ne jemi partneri juaj i besueshëm për vendosje të suksesshme dhe zhvillim individual të karrierës!",
   "home-steps-title": "Hap pas hapi tek specialistët tuaj të rinj",
 
   "home-steps-title-1": "Parazgjedhje e kualifikuar",
@@ -56,8 +57,30 @@
   "footer-bottom-3-2": "Gjurmë",
   "footer-bottom-3-3": "Mbrojtjea e të dhënave",
 
-  "interestedPage-banner-title": "Për të interesuarit",
-  "interestedPage-banner-text": "Të interesuarit për punë",
+  "interestedPage-banner-title": "Punoni në Gjermani. Mundësia juaj",
+  "interestedPage-banner-text": "E ardhmja juaj profesionale fillon këtu! Zbuloni mundësi emocionuese karriere dhe filloni një jetë të re në Gjermani. Na kontaktoni tani dhe formoni të ardhmen tuaj!",
+  "interestedPage-first-content": "Pavarësisht nëse jeni tashmë plotësisht i punësuar, keni mbaruar së fundmi universitetin ose keni përfunduar formimin profesional - koncepti ynë është rruga juaj për në Gjermani.",
+  "interestedPage-card-title": "Ne jemi duke kërkuar për ju!",
+  "interestedPage-profesions": "Për njerëzit që punojnë",
+  "interestedPage-profesions1": "Për të diplomuarit në universitet",
+  "interestedPage-profesions2": "Për të diplomuarit e trajnimit",
+  "interestedPage-profesions-content": "Kërkojmë aplikantë me përvojë profesionale të cilët tashmë kanë dëshmuar kompetencën e tyre në botën e punës.",
+  "interestedPage-profesions-content1": "Të diplomuar me arsim akademik të cilët janë të gatshëm të përkthejnë njohuritë e tyre në sukses praktik.",
+  "interestedPage-profesions-content2": "Specialistë të përkushtuar me formim profesional të përfunduar që përpiqen për sfida të reja.",
+  "gerkos-vorteile": "Përparësitë tuaja me GERKOS",
+  "gerkos-advance1": "JO kosto për shërbimet tona!",
+  "gerkos-advance2": "Njohja e diplomës sime në Gjermani",
+  "gerkos-advance3": "Kontrata e garantuar e punes",
+  "gerkos-advance4": "Punë tërheqëse",
+  "gerkos-advance5": "Tarifat sipas tarifave gjermane",
+  "gerkos-profesions-fields": "Një fragment i vogël i grupeve tona profesionale:",
+  "gerkos-profesions-related": "Shikoni të gjitha punët që lidhen me këtë fushë",
+  "gerkos-profesions-see-more": "Shiko më shumë",
+  "gerkos-propfesion-HandWerk": "ArtiZanat",
+  "gerkos-propfesion-Medizin": "Mjekësi",
+  "gerkos-propfesion-Ingenieurwesen": "Inxhinieri",
+  "gerkos-propfesion-Gastgewerbe": "Industria e mikpritjes",
+
   "interested-card1-title-1": "Inxhinierët",
   "interested-card1-text-1": "Inxhinierët janë shumë të kërkuar në Gjermani, veçanërisht inxhinierët elektrikë, mekanikë dhe civilë. Kërkesa e lartë për inxhinierë është për shkak të lulëzimit të industrisë së automobilave dhe makinerive.",
   "interested-card1-text-2": "Pra, ju mund të kapni disa punë me pagesë të lartë në vend nëse jeni të aftë në inxhinieri. Paga mesatare vjetore për profilet në fushën e inxhinierisë është 65,000 €.",
@@ -88,13 +111,29 @@
   "contactus-page-input-3": "Shkruaj mesazhin tënd",
   "contactus-page-button": "Dërgo tani",
 
-  "aboutus-page-title": "Rreth Nesh",
-  "aboutus-page-title-2": "Zbuloni ekipin tonë",
-  "aboutus-page-text": "lorem",
+
+  
+  "aboutus-page-title": "Misioni ynë: Ndërtimi i urave, lidhja e talenteve",
+  "aboutus-page-text": "Misioni ynë është të ndërtojmë një urë lidhëse ndërmjet kompanive në Gjermani dhe specialistëve të kualifikuar në Kosovë. Ne jemi të specializuar në industrinë artizanale, IT, mjekësore, inxhinierike dhe mikpritëse dhe u ofrojmë aplikantëve dhe kompanive mbështetje gjithëpërfshirëse, nga kontakti i parë deri te rekrutimi i suksesshëm dhe më gjerë. Nëpërmjet përzgjedhjes së kujdesshme dhe këshillave individuale, ne sigurojmë që vendosjet tona të përmbushin nevojat dhe pritshmëritë e kompanive dhe specialistëve.",
   "aboutus-page-team-title": "Ekipi ynë",
+  "aboutus-page-text-team": "Pas GERKOS është një ekip konsulentësh me përvojë, të cilët karakterizohen nga pasioni për punën e tyre dhe një kuptim i thellë i kërkesave të tregut ndërkombëtar të punës. Ekipi ynë punon ngushtë me të dyja palët – profesionistë dhe kompani – për të siguruar që çdo pozicion jo vetëm të përputhet me kualifikimet, por edhe të sigurojë kënaqësi afatgjatë.",
+
 
   "forCompanies-banner-title-1": "Mirë se vini te GERKOS",
   "forCompanies-banner-title-2": "- Burimi juaj për specialistë të kualifikuar të lartë nga Kosova",
   "forCompanies-banner-title-3": "- Po kërkoni për specialistë të shkëlqyer për të fuqizuar kompaninë tuaj dhe për të zgjeruar ekipin tuaj?",
-  "forCompanies-banner-title-4": "- Te GERKOS ofrojmë zgjidhje të personalizuara duke ndërmjetësuar talente të kualifikuara nga Kosova."
+  "forCompanies-banner-title-4": "- Te GERKOS ofrojmë zgjidhje të personalizuara duke ndërmjetësuar talente të kualifikuara nga Kosova.",
+
+"forCompanies--talent-paragraph-1": "Në botën e shkathësive dinamike të biznesit sot, specialistët e klasës së parë janë çelësi për sukses.",
+"forCompanies--talent-paragraph-2": "Në GERKOS kuptojmë se ekipi juaj është baza për një sukses të qëndrueshëm dhe për rritje.",
+"forCompanies--talent-paragraph-3": "Prandaj ju ofrojmë një burim ekskluziv për specialistë të kualifikuar të lartë nga Kosova, për të luftuar efektivisht mungesën e specialistëve në tregun gjerman të punës.",
+"forCompanies--talent-paragraph-4": "Avantazhet tuaja në bashkëpunim me GERKOS-in:",
+"forCompanies--talent-paragraph-5": "- Sigurimi i cilësisë: Ne vlerësojmë cilësinë dhe zbatojmë procese zgjedhje të rrepta për të siguruar që të përfaqësohen vetëm talentet më të mira.",
+"forCompanies--talent-paragraph-6": "- Shkëlqimi në fushën e specializimit: Specialistët tanë kanë kualifikime të klasës së parë dhe sjellin përvojë të gjërë në fusha të ndryshme profesionale.",
+"forCompanies--talent-paragraph-7": "- Diversiteti kulturor: Duke bashkëpunuar me [Emrin e Agjensisë Tuaj], ju përhapni jo vetëm njohuri profesionale, por edhe kulturore. Talentet tona sjellin një perspektivë të ndryshme në kompaninë tuaj.",
+"forCompanies--talent-paragraph-8": "- Posredimi efikas: Ne kuptojmë se koha është jetësore. Me procesin tonë të shpejtë të posredimit, ju gjeni shpejt specialistët e duhur që përmbushin kërkesat tuaja.",
+"forCompanies--talent-paragraph-9": "- Besueshmëria: GERKOS-i përfaqëson besueshmëri dhe transparencë. Ne e vlerësojmë ndërtimin e një partneriteti afatgjatë dhe sigurimin që ju të fitoni talentet më të mira për ekipin tuaj.",
+"forCompanies--talent-paragraph-10": "- Këshillimi individual: Çdo kompani është unike. Ekipi ynë ofron këshillim individual për t'ju siguruar që posredimi përputhet me nevojat tuaja të veçanta.",
+"forCompanies--talent-paragraph-11": "Zbuloni avantazhet e bashkëpunimit me GERKOS-in.",
+"forCompanies--talent-paragraph-12": "Na kontaktoni sot dhe lejojini të forcojmë bashkë ekipin tuaj."
 }

@@ -10,6 +10,11 @@ import ContactUs from "./pages/ContactUs";
 import AboutUs from "./pages/AboutUs";
 import Interested from "./pages/Interested/Interested";
 import ForCompanies from "./pages/ForCompanies";
+import It from "./pages/It";
+import HandWerk from "./pages/HandWerk";
+import Medizin from "./pages/Medizin";
+import Ingenieurwesen from "./pages/Ingenieurwesen";
+import Gastgewerbe from "./pages/Gastgewerbe";
 
 function App() {
   return (
@@ -19,6 +24,14 @@ function App() {
       <Route path="/aboutus" element={<AboutUs />} />
       <Route path="/interested" element={<Interested />} />
       <Route path="/for-companies" element={<ForCompanies />} />
+
+      <Route path="/IT" element={<It/>} />
+      <Route path="/HandWerk" element={<HandWerk/>} />
+      <Route path="/Medizin" element={<Medizin/>} />
+      <Route path="/Ingenieurwesen" element={<Ingenieurwesen/>} />
+      <Route path="/Gastgewerbe" element={<Gastgewerbe/>} />
+
+
     </Routes>
   );
 }

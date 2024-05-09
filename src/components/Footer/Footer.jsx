@@ -34,7 +34,7 @@ function Footer() {
             <h3>{t("footer-top-link-2")}</h3>
             <div className="hr-steps"></div>
             <p>Tel: 0152 / 34 15 21 30</p>
-            <p>info@gerkos.com</p>
+            <p>info@gerkos.de</p>
           </div>
 
           <div className="footer-top-right-card">
