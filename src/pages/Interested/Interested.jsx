@@ -93,8 +93,8 @@ function Interested() {
 
       <div className="row">
         <h1>Deine Vorteile mit GERKOS:</h1>
-        <div className="flex flex-wrap justify-center">
-          <div className="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
+        <div className="flex flex-wrap justify-center w-full">
+          <div className="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg w-full">
             <div className="px-6 py-4">
               <div className="flex justify-center mb-4">
                 <EuroOutlined
@@ -108,7 +108,7 @@ function Interested() {
             </div>
           </div>
 
-          <div className="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
+          <div className="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg w-full">
             <div className="px-6 py-4">
               <div className="flex justify-center mb-4">
                 <ReadOutlined
@@ -122,7 +122,7 @@ function Interested() {
             </div>
           </div>
 
-          <div className="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
+          <div className="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg w-full">
             <div className="px-6 py-4">
               <div className="flex justify-center mb-4">
                 <FileDoneOutlined
@@ -136,7 +136,7 @@ function Interested() {
             </div>
           </div>
 
-          <div className="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
+          <div className="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg w-full">
             <div className="px-6 py-4">
               <div className="flex justify-center mb-4">
                 <ApartmentOutlined
@@ -150,7 +150,7 @@ function Interested() {
             </div>
           </div>
 
-          <div className="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
+          <div className="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg w-full">
             <div className="px-6 py-4">
               <div className="flex justify-center mb-4">
                 <MoneyCollectOutlined
@@ -167,8 +167,8 @@ function Interested() {
       </div>
       <div className="row">
         <h1>Ein kleiner Auszug unserer Berufsgruppen:</h1>
-        <div class="flex flex-wrap justify-center">
-          <div class="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
+        <div className="flex flex-wrap justify-center w-full">
+          <div className="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg w-full">
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2 mt-3">HandWerk</div>
               <p class="text-gray-700 text-base">
@@ -177,7 +177,7 @@ function Interested() {
               <p class="text-gray-500 text-sm mt-2">See More</p>
             </div>
           </div>
-          <div class="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
+          <div className="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg w-full">
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2 mt-3">IT</div>
               <p class="text-gray-700 text-base">
@@ -187,7 +187,7 @@ function Interested() {
             </div>
           </div>
 
-          <div class="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
+          <div className="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg w-full">
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2 mt-3">Medizin</div>
               <p class="text-gray-700 text-base">
@@ -196,7 +196,7 @@ function Interested() {
               <p class="text-gray-500 text-sm mt-2">See More</p>
             </div>
           </div>
-          <div class="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
+          <div className="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg w-full">
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2 mt-3"> Ingenieurwesen</div>
               <p class="text-gray-700 text-base">
@@ -205,7 +205,7 @@ function Interested() {
               <p class="text-gray-500 text-sm mt-2">See More</p>
             </div>
           </div>
-          <div class="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
+          <div className="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg w-full">
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2 mt-3">Gastgewerbe</div>
               <p class="text-gray-700 text-base">

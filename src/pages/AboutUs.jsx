@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import Logo from "../img/agency.jpg";
-import CTO from "../img/cto.jpg";
+import CTO from "../../src/img/bujar.JPG";
 
 import "./pages.scss";
 import Footer from "../components/Footer/Footer";
@@ -55,19 +55,22 @@ function AboutUs() {
             </div>
             <div className="flex-aboutus ">
               <img src={Logo} alt="" />
-             
             </div>
           </div>
         </div>
 
         <div className="container-aboutus ">
           <div className="row-aboutus mt-10">
-            <div className="flex-aboutus">
-              <img src={CTO} alt="" />
+            <div className="flex-aboutus content-center flex flex-col items-center ">
+              <div
+                className="image-cto"
+                style={{ backgroundImage: `url(${CTO})` }}
+              ></div>
               <div className="text-container-ceo">
-              <span>Bujar Merovci</span><br />
-              <span>Gründer & Hauptansprechpartner</span>
-            </div>
+                <span>Bujar Merovci</span>
+                <br />
+                <span>Gründer & Hauptansprechpartner</span>
+              </div>
             </div>
             <div className="flex-aboutus">
               <h2>{t("aboutus-page-team-title")}</h2>

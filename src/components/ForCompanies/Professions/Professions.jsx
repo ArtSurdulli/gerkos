@@ -73,7 +73,7 @@ function Professions() {
       </div>
       <div className="row">
         <h1>Deine Vorteile mit GERKOS:</h1>
-        <div className="flex flex-wrap justify-center">
+        <div className="flex flex-wrap justify-center w-full">
           <div className="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
             <div className="px-6 py-4">
               <div className="flex justify-center mb-4">
@@ -88,7 +88,7 @@ function Professions() {
             </div>
           </div>
 
-          <div className="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
+          <div className="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg w-full">
             <div className="px-6 py-4">
               <div className="flex justify-center mb-4">
                 <ReadOutlined
@@ -102,7 +102,7 @@ function Professions() {
             </div>
           </div>
 
-          <div className="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
+          <div className="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg w-full">
             <div className="px-6 py-4">
               <div className="flex justify-center mb-4">
                 <FileDoneOutlined
@@ -116,7 +116,7 @@ function Professions() {
             </div>
           </div>
 
-          <div className="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
+          <div className="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg w-full">
             <div className="px-6 py-4">
               <div className="flex justify-center mb-4">
                 <ApartmentOutlined
@@ -130,7 +130,7 @@ function Professions() {
             </div>
           </div>
 
-          <div className="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
+          <div className="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg w-full">
             <div className="px-6 py-4">
               <div className="flex justify-center mb-4">
                 <MoneyCollectOutlined
