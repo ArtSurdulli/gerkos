@@ -9,6 +9,7 @@ import HomePage from "./components/HomePage/HomePage";
 import ContactUs from "./pages/ContactUs";
 import AboutUs from "./pages/AboutUs";
 import Interested from "./pages/Interested/Interested";
+import ForCompanies from "./pages/ForCompanies";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path="/contact" element={<ContactUs />} />
       <Route path="/aboutus" element={<AboutUs />} />
       <Route path="/interested" element={<Interested />} />
+      <Route path="/for-companies" element={<ForCompanies />} />
     </Routes>
   );
 }

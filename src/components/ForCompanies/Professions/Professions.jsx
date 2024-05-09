@@ -1,17 +1,13 @@
 import React from "react";
-import "./Interested.scss";
 import { useTranslation } from "react-i18next";
-import Navbar from "../../components/Navbar/Navbar";
-import Footer from "../../components/Footer/Footer";
-import InterestedCards from "./InterestedCards";
-import img1 from "../../img/interested1.webp";
-import img2 from "../../img/interested2.webp";
-import img3 from "../../img/interested3.webp";
-import img4 from "../../img/interested4.jpg";
-import img5 from "../../img/interested5.png";
-import img6 from "../../img/interested6.jpeg";
-import InterestedBanner from "./InterestedBanner";
-import Contact from "../../components/Contact/Contact";
+import img1 from "../../../img/interested1.webp";
+import img2 from "../../../img/interested2.webp";
+import img3 from "../../../img/interested3.webp";
+import img4 from "../../../img/interested4.jpg";
+import img5 from "../../../img/interested5.png";
+import img6 from "../../../img/interested6.jpeg";
+import InterestedCards from "../../../pages/Interested/InterestedCards";
+import "./Professions.scss";
 import {
   ApartmentOutlined,
   EuroOutlined,
@@ -20,9 +16,8 @@ import {
   ReadOutlined,
 } from "@ant-design/icons";
 
-function Interested() {
+function Professions() {
   const { t } = useTranslation();
-
   const interestedData = [
     {
       id: 1,
@@ -51,21 +46,7 @@ function Interested() {
   ];
 
   return (
-    <div className="interestedPage">
-      <Navbar />
-      <InterestedBanner />
-
-      <div className="Description">
-        <div className="hr-description mt-3"></div>
-        <div>
-          <p className="text-center max-w-7xl	mt-4">
-            Egal ob du bereits voll im Berufsleben stehst, frisch die
-            Universität absolviert hast oder oder eine abgeschlossene
-            Berufsausbildung vorweisen kannst – unser Konzept ist dein Weg nach
-            Deutschland.
-          </p>
-        </div>
-      </div>
+    <div className="ForCompanies--Professions">
       <div className="row">
         <h1>Dich suchen wir!</h1>
         {/* 
@@ -90,7 +71,6 @@ function Interested() {
           );
         })}
       </div>
-
       <div className="row">
         <h1>Deine Vorteile mit GERKOS:</h1>
         <div className="flex flex-wrap justify-center">
@@ -165,61 +145,8 @@ function Interested() {
           </div>
         </div>
       </div>
-      <div className="row">
-        <h1>Ein kleiner Auszug unserer Berufsgruppen:</h1>
-        <div class="flex flex-wrap justify-center">
-          <div class="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2 mt-3">HandWerk</div>
-              <p class="text-gray-700 text-base">
-                See all the profesion related with this field
-              </p>
-              <p class="text-gray-500 text-sm mt-2">See More</p>
-            </div>
-          </div>
-          <div class="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2 mt-3">IT</div>
-              <p class="text-gray-700 text-base">
-                See all the profesion related with this field
-              </p>
-              <p class="text-gray-500 text-sm mt-2">See More</p>
-            </div>
-          </div>
-
-          <div class="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2 mt-3">Medizin</div>
-              <p class="text-gray-700 text-base">
-                See all the profesion related with this field
-              </p>
-              <p class="text-gray-500 text-sm mt-2">See More</p>
-            </div>
-          </div>
-          <div class="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2 mt-3"> Ingenieurwesen</div>
-              <p class="text-gray-700 text-base">
-                See all the profesion related with this field
-              </p>
-              <p class="text-gray-500 text-sm mt-2">See More</p>
-            </div>
-          </div>
-          <div class="max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2 mt-3">Gastgewerbe</div>
-              <p class="text-gray-700 text-base">
-                See all the profesion related with this field
-              </p>
-              <p class="text-gray-500 text-sm mt-2">See More</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <Contact />
-      <Footer />
     </div>
   );
 }
 
-export default Interested;
+export default Professions;
