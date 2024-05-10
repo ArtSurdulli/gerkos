@@ -2,17 +2,20 @@ import React from "react";
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
 import Contact from "../components/Contact/Contact";
+import { useTranslation } from "react-i18next";
 
 function Ingenieurwesen() {
+  const { t } = useTranslation();
+
   const professions = [
-    { id: 1, name: "Maschinenbauingenieur" },
-    { id: 2, name: "Elektroingenieur" },
-    { id: 3, name: "Bauingenieur" },
-    { id: 4, name: "Verfahrenstechnikingenieur" },
-    { id: 5, name: "Luft- und Raumfahrtingenieur" },
-    { id: 6, name: "Umweltingenieur" },
-    { id: 7, name: "Chemieingenieur" },
-    { id: 8, name: "Automatisierungsingenieur" }
+    { id: 1, name: t("ingenieurwesen-professions-1") },
+    { id: 2, name: t("ingenieurwesen-professions-2") },
+    { id: 3, name: t("ingenieurwesen-professions-3") },
+    { id: 4, name: t("ingenieurwesen-professions-4") },
+    { id: 5, name: t("ingenieurwesen-professions-5") },
+    { id: 6, name: t("ingenieurwesen-professions-6") },
+    { id: 7, name: t("ingenieurwesen-professions-7") },
+    { id: 8, name: t("ingenieurwesen-professions-8") },
   ];
 
   return (
@@ -20,7 +23,7 @@ function Ingenieurwesen() {
       <Navbar />
 
       <div className="row">
-        <h1>Berufe im Bereich Ingenieurwesen</h1>
+        <h1>{t("ingenieurwesen-page-professions")}</h1>
         <div className="flex flex-wrap justify-center w-full">
           {professions.map((profession) => (
             <div
@@ -29,7 +32,9 @@ function Ingenieurwesen() {
               style={{ height: "200px" }}
             >
               <div className="px-6 py-4">
-                <p className="text-gray-700 text-lg text-center">{profession.name}</p>
+                <p className="text-gray-700 text-lg text-center">
+                  {profession.name}
+                </p>
               </div>
             </div>
           ))}

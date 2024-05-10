@@ -2,18 +2,21 @@ import React from "react";
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
 import Contact from "../components/Contact/Contact";
+import { useTranslation } from "react-i18next";
 
 function HandWerk() {
+  const { t } = useTranslation();
+
   const professions = [
-    { id: 1, name: "Elektriker" },
-    { id: 2, name: "Tischler" },
-    { id: 3, name: "Kfz-Mechatroniker" },
-    { id: 4, name: "Installateur für Heizung und Sanitär" },
-    { id: 5, name: "Schweißer" },
-    { id: 6, name: "Maurer" },
-    { id: 7, name: "Zimmermann" },
-    { id: 8, name: "Maler und Lackierer" },
-    { id: 9, name: "Fliesenleger" },
+    { id: 1, name: t("handwerk-professions-1") },
+    { id: 2, name: t("handwerk-professions-2") },
+    { id: 3, name: t("handwerk-professions-3") },
+    { id: 4, name: t("handwerk-professions-4") },
+    { id: 5, name: t("handwerk-professions-5") },
+    { id: 6, name: t("handwerk-professions-6") },
+    { id: 7, name: t("handwerk-professions-7") },
+    { id: 8, name: t("handwerk-professions-8") },
+    { id: 9, name: t("handwerk-professions-9") },
   ];
 
   return (
@@ -21,7 +24,7 @@ function HandWerk() {
       <Navbar />
 
       <div className="row">
-        <h1>Berufe im Bereich HandWerk</h1>
+        <h1>{t("handwerk-page-professions")}</h1>
         <div className="flex flex-wrap justify-center w-full">
           {professions.map((profession) => (
             <div
@@ -30,7 +33,9 @@ function HandWerk() {
               style={{ height: "200px" }}
             >
               <div className="px-6 py-4">
-                <p className="text-gray-700 text-lg text-center">{profession.name}</p>
+                <p className="text-gray-700 text-lg text-center">
+                  {profession.name}
+                </p>
               </div>
             </div>
           ))}
@@ -44,5 +49,3 @@ function HandWerk() {
 }
 
 export default HandWerk;
-
-

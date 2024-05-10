@@ -2,19 +2,21 @@ import React from "react";
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
 import Contact from "../components/Contact/Contact";
-import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 function It() {
+  const { t } = useTranslation();
+
   const professions = [
-    { id: 1, name: "Softwareentwickler" },
-    { id: 2, name: "Systemadministrator" },
-    { id: 3, name: "IT-Support-Spezialist" },
-    { id: 4, name: "Datenanalyst" },
-    { id: 5, name: "Webentwickler" },
-    { id: 6, name: "Sicherheitsexperte" },
-    { id: 7, name: "Netzwerktechniker" },
-    { id: 8, name: "Datenbankadministrator" },
-    { id: 9, name: "UX/UI-Designer" }
+    { id: 1, name: t("it-professions-1") },
+    { id: 2, name: t("it-professions-2") },
+    { id: 3, name: t("it-professions-3") },
+    { id: 4, name: t("it-professions-4") },
+    { id: 5, name: t("it-professions-5") },
+    { id: 6, name: t("it-professions-6") },
+    { id: 7, name: t("it-professions-7") },
+    { id: 8, name: t("it-professions-8") },
+    { id: 9, name: t("it-professions-9") },
   ];
 
   return (
@@ -22,7 +24,7 @@ function It() {
       <Navbar />
 
       <div className="row">
-        <h1>Berufe im Bereich IT</h1>
+        <h1>{t("interestedPage-professions")}</h1>
         <div className="flex flex-wrap justify-center w-full">
           {professions.map((profession) => (
             <div
@@ -31,7 +33,9 @@ function It() {
               style={{ height: "200px" }}
             >
               <div className="px-6 py-4">
-                <p className="text-gray-700 text-lg text-center">{profession.name}</p>
+                <p className="text-gray-700 text-lg text-center">
+                  {profession.name}
+                </p>
               </div>
             </div>
           ))}
