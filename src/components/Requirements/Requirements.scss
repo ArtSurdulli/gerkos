@@ -1,9 +1,9 @@
 
 
-$card-desktop-width: 300px;
+$card-desktop-width: 250px;
 
 .card {
-  max-width: $card-desktop-width; // Set maximum width for desktop
+  max-width: $card-desktop-width; 
   width: 100%; 
 
 }
@@ -11,6 +11,6 @@ $card-desktop-width: 300px;
 
 @media screen and (max-width: 768px) {
   .card {
-    max-width: 100%; // Set maximum width to 100% for mobile
+    max-width: 100%; 
   }
 }

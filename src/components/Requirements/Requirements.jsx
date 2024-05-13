@@ -20,10 +20,10 @@ function Requirements() {
           {professions.map((profession) => (
             <div key={profession.id} className=" card max-w-xs mx-2 my-4 rounded overflow-hidden shadow-lg">
               <div className="px-6 py-4">
-                <div className="flex justify-center font-bold text-xl mb-2">
+                <div  className="flex justify-center font-bold text-xl mb-2">
                 {profession.value}
                 </div>
-                <div className=" text-xl mb-2">
+                <div className=" mb-2">
                   {profession.name}
                 </div>
               </div>
