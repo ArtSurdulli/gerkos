@@ -73,7 +73,7 @@ function Interested() {
         </div>
       </div>
 
-      <div className="flex justify-evenly">
+      <div className="final-cards">
         <div class="card1">
           <div class="content-card">
             <h4 className="font-bold">Universität Studenten & Absolventen</h4>
