@@ -5,32 +5,42 @@ function Description() {
   const { t } = useTranslation();
 
   return (
-    <div className="Description">
-      <h1>GERKOS - {t("home-description-title")}</h1>
-      <div className="hr-description mt-3"></div>
-      <div>
-        <p className="text-center max-w-7xl	mt-4">
-          {t("home-description-text-1")}
-        </p>
+    <>
+      <div className="Description">
+        <h1>GERKOS</h1>
+        <h2>{t("home-description-title")}</h2>
+        {/* <div className="hr-description mt-3"></div> */}
+        <div>
+          <p className="text-center max-w-7xl	mt-4">
+            {t("home-description-text-1")}
+          </p>
+        </div>
       </div>
-      <div>
-        <p className="text-center max-w-7xl	mt-2">
-          {t("home-description-text-2")}
-        </p>
-      </div>
+      <div className="twoPlace ">
+        <div className="twoPlace1">
+          <h1 className="title">Für Bewerber</h1>
+          <p>
+            Träumen Sie von neuen beruflichen Perspektiven in Deutschland? Bei
+            GERKOS finden Sie nicht nur vielfältige Karrieremöglichkeiten in
+            nahezu allen Berufsgruppen, sondern auch Unterstützung bei der
+            Integration und attraktive Arbeitsbedingungen. Starten Sie Ihre
+            berufliche Reise mit uns!
+          </p>
+        </div>
 
-      <div>
-        <p className="text-center max-w-7xl	mt-2">
-          {t("home-description-text-3")}
-        </p>
+        <div className="twoPlace2">
+          <h1 className="title">Für Unternehmen</h1>
+          <p>
+            Sind Sie auf der Suche nach herausragenden Fachkräften, die Ihr Team
+            stärken und Ihr Unternehmen voranbringen? GERKOS bietet Ihnen eine
+            exklusive Auswahl an hochqualifizierten Fachkräften aus dem Kosovo.
+            Entdecken Sie die Vorteile einer Zusammenarbeit mit uns – von
+            exzellenter Fachkompetenz bis hin zu nachhaltiger
+            Personalentwicklung.
+          </p>
+        </div>
       </div>
-      <div>
-        <p className="text-center max-w-7xl	">
-        {t("home-description-text-4")}
-
-        </p>
-      </div>
-    </div>
+    </>
   );
 }
 
