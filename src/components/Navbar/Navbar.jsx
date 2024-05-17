@@ -30,6 +30,7 @@ const Navbar = () => {
     { id: 3, text: t("navbar-link-3"), to: "/for-companies" },
     { id: 4, text: t("navbar-link-4"), to: "/aboutus" },
     { id: 5, text: t("navbar-link-5"), to: "/contact" },
+    { id: 5, text: t("navbar-link-6"), to: "/jobs" },
   ];
 
   return (
@@ -87,8 +88,6 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-
-   
       </div>
     </>
   );

@@ -4,6 +4,7 @@
   "navbar-link-1": "Ballina",
   "navbar-link-4": "Rreth Nesh",
   "navbar-link-5": "Kontaktoni",
+  "navbar-link-6": "Punë",
   "navbar-button": "Aplikoni",
 
   "home-banner-title-1": "Perspektiva të përbashkëta",
@@ -234,5 +235,26 @@
   "jobs-positions3-position6": "Kujdestar për të Moshuarit",
   "jobs-positions3-position7": "Terapeut i Okupacionit",
   "jobs-positions3-position8": "Paramedik",
-  "jobs-positions3-position9": "Asistent Mjekësor"
+  "jobs-positions3-position9": "Asistent Mjekësor",
+
+  "jobs-positions4-category": "Ingenieurwesen Engineering",
+  "jobs-positions4-position1": "Maschinenbauingenieur",
+  "jobs-positions4-position2": "Elektroingenieur",
+  "jobs-positions4-position3": "Bauingenieur",
+  "jobs-positions4-position4": "Verfahrenstechnikingenieur",
+  "jobs-positions4-position5": "Luft- und Raumfahrtingenieur",
+  "jobs-positions4-position6": "Umweltingenieur",
+  "jobs-positions4-position7": "Chemieingenieur",
+  "jobs-positions4-position8": "Automatisierungsingenieur",
+
+  "jobs-positions5-category": "Gastgewerbe",
+  "jobs-positions5-position1": "Koch",
+  "jobs-positions5-position2": "Hotelfachmann",
+  "jobs-positions5-position3": "Restaurantmanager",
+  "jobs-positions5-position4": "Barkeeper",
+  "jobs-positions5-position5": "Empfangsmitarbeiter",
+  "jobs-positions5-position6": "Eventmanager",
+  "jobs-positions5-position7": "Zimmermädchen/Kammerjunge",
+  "jobs-positions5-position8": "Servicekraft",
+  "jobs-positions5-position9": "Küchenhilfe"
 }

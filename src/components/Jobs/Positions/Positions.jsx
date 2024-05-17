@@ -4,7 +4,6 @@ import "./Positions.scss";
 
 function Positions() {
   const { t } = useTranslation();
-
   const jobCategories = [
     {
       id: 1,
@@ -48,6 +47,35 @@ function Positions() {
         t("jobs-positions3-position7"),
         t("jobs-positions3-position8"),
         t("jobs-positions3-position9"),
+      ],
+    },
+    {
+      id: 4,
+      category: t("jobs-positions4-category"),
+      positions: [
+        t("jobs-positions4-position1"),
+        t("jobs-positions4-position2"),
+        t("jobs-positions4-position3"),
+        t("jobs-positions4-position4"),
+        t("jobs-positions4-position5"),
+        t("jobs-positions4-position6"),
+        t("jobs-positions4-position7"),
+        t("jobs-positions4-position8"),
+      ],
+    },
+    {
+      id: 5,
+      category: t("jobs-positions5-category"),
+      positions: [
+        t("jobs-positions5-position1"),
+        t("jobs-positions5-position2"),
+        t("jobs-positions5-position3"),
+        t("jobs-positions5-position4"),
+        t("jobs-positions5-position5"),
+        t("jobs-positions5-position6"),
+        t("jobs-positions5-position7"),
+        t("jobs-positions5-position8"),
+        t("jobs-positions5-position9"),
       ],
     },
   ];
