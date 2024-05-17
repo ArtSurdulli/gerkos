@@ -2,7 +2,7 @@
   "navbar-link-1": "GERKOS",
   "navbar-link-2": "Bewerber-Interessierte",
   "navbar-link-3": "Fur Unternehmen ",
-  "navbar-link-4": "About Us",
+  "navbar-link-4": "Über uns",
   "navbar-link-5": "Kontakt",
   "navbar-link-6": "Arbeitsplätze",
   "navbar-button": "Bewerbung",
@@ -111,10 +111,10 @@
   "contactus-page-input-3": "Nachricht eingeben",
   "contactus-page-button": "Schick jetzt",
 
-  "aboutus-page-title": "Unsere Mission: Brücken bauen, Talente verbinden",
-  "aboutus-page-text": "Unsere Mission besteht darin, eine Brücke zwischen Unternehmen in Deutschland und hochqualifizierten Fachkräften im Kosovo zu schlagen. Wir sind spezialisiert auf die Branchen Handwerk, IT, Medizin, Ingenieurwesen und Gastgewerbe und bieten sowohl Bewerbern als auch Unternehmen einen vollumfänglichen Support, von der ersten Kontaktaufnahme bis zur erfolgreichen Einstellung und darüber hinaus. Durch sorgfältige Auswahl und individuelle Beratung stellen wir sicher, dass unsere Vermittlungen den Bedürfnissen und Erwartungen sowohl der Unternehmen als auch der Fachkräfte gerecht werden.",
+  "aboutus-page-title": "Unsere Mission",
+  "aboutus-page-text": "Unsere Mission besteht darin, eine Brücke zwischen Unternehmen in Deutschland und qualifizierten Fachkräften im Kosovo zu schlagen. Wir verfolgen das Ziel, sowohl die Karriereambitionen unserer Fachkräfte zu fördern als auch Unternehmen zu helfen, ihre Teams mit den geeigneten Fachkräften zu verstärken. Wir glauben an die Kraft der Diversität und die Vorteile einer integrativen Arbeitswelt, die sowohl wirtschaftlich als auch sozial nachhaltig ist.",
   "aboutus-page-team-title": "Unser Team",
-  "aboutus-page-text-team": "Hinter GERKOS steht ein Team aus erfahrenen Beratern, die sich durch Leidenschaft für ihre Arbeit und ein tiefes Verständnis für die Anforderungen des internationalen Arbeitsmarktes auszeichnen. Unser Team arbeitet eng mit beiden Seiten – Fachkräften und Unternehmen – zusammen, um sicherzustellen, dass jede Vermittlung nicht nur den Qualifikationen entspricht, sondern auch eine langfristige Zufriedenheit gewährleistet.",
+  "aboutus-page-text-team": "Unser Team aus erfahrenen Beratern arbeitet engagiert daran, sowohl den Bedürfnissen der Unternehmen als auch den Karrierezielen der Fachkräfte gerecht zu werden. Erfahren Sie mehr über unsere Geschichte, unsere Werte und wie wir Tag für Tag daran arbeiten, die perfekte Passung zwischen Fachkräften und Unternehmen zu schaffen.",
 
   "forCompanies-banner-title-1": "Brücken bauen, Erfolge schaffen",
   "forCompanies-banner-title-2": "Sichern Sie sich erstklassige Fachkräfte aus dem Kosovo und stärken Sie Ihr Team",

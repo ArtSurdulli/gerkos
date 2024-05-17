@@ -7,9 +7,9 @@ import InterestedCards from "./InterestedCards";
 import img1 from "../../img/interested1.webp";
 import img2 from "../../img/interested2.webp";
 import img3 from "../../img/interested3.webp";
-import img4 from "../../img/interested4.jpg";
-import img5 from "../../img/interested5.png";
-import img6 from "../../img/interested6.jpeg";
+import img4 from "../../img/work.jpg";
+import img5 from "../../img/teach.webp";
+import img6 from "../../img/diploma.webp";
 import InterestedBanner from "./InterestedBanner";
 import Contact from "../../components/Contact/Contact";
 import {
@@ -18,6 +18,10 @@ import {
   FileDoneOutlined,
   MoneyCollectOutlined,
   ReadOutlined,
+  CustomerServiceOutlined,
+  SafetyCertificateOutlined,
+  FileTextOutlined,
+  StarOutlined,
 } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 
@@ -25,15 +29,15 @@ function Interested() {
   const { t } = useTranslation();
 
   const professions = [
-    { id: 1, value: "icon", name: "KEINE Kosten für unsere Leistungen!" },
+    { id: 1, value: <CustomerServiceOutlined />, name: "KEINE Kosten für unsere Leistungen!" },
     {
       id: 2,
-      value: "icon",
+      value: <SafetyCertificateOutlined />,
       name: "Anerkennung deines Abschlusses in Deutschland",
     },
-    { id: 3, value: "icon", name: "Garantierter Arbeitsvertrag" },
-    { id: 4, value: "icon", name: "Attraktive Arbeitsstelle" },
-    { id: 5, value: "icon", name: "Entgelt nach deutschem Tarif" },
+    { id: 3, value: <FileTextOutlined />, name: "Garantierter Arbeitsvertrag" },
+    { id: 4, value: <StarOutlined />, name: "Attraktive Arbeitsstelle" },
+    { id: 5, value: <EuroOutlined />, name: "Entgelt nach deutschem Tarif" },
   ];
 
   return (
@@ -82,7 +86,7 @@ function Interested() {
               sind, ihr Wissen in praktische Erfolge umzusetzen.
             </p>
           </div>
-          <img src={img1} alt="Banner" className="w-full" />
+          <img src={img6} alt="Banner" className="w-full" />
         </div>
         <div class="card1">
           <div class="content-card">
@@ -92,7 +96,7 @@ function Interested() {
               nach neuen Herausforderungen streben.
             </p>
           </div>
-          <img src={img1} alt="Banner" className="w-full" />
+          <img src={img5} at="Banner" className="w-full" />
         </div>
         <div class="card1">
           <div class="content-card">
@@ -102,7 +106,7 @@ function Interested() {
               der Arbeitswelt bereits unter Beweis gestellt haben.
             </p>
           </div>
-          <img src={img1} alt="Banner" className="w-full" />
+          <img src={img4} alt="Banner" className="w-full" />
         </div>
       </div>
       <br />

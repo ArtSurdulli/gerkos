@@ -28,9 +28,10 @@ const Navbar = () => {
     { id: 1, text: t("navbar-link-1"), to: "/" },
     { id: 2, text: t("navbar-link-2"), to: "/interested" },
     { id: 3, text: t("navbar-link-3"), to: "/for-companies" },
-    { id: 4, text: t("navbar-link-4"), to: "/aboutus" },
-    { id: 5, text: t("navbar-link-5"), to: "/contact" },
-    { id: 5, text: t("navbar-link-6"), to: "/jobs" },
+    { id: 4, text: t("navbar-link-6"), to: "/jobs" },
+    { id: 5, text: t("navbar-link-4"), to: "/aboutus" },
+    { id: 6, text: t("navbar-link-5"), to: "/contact" },
+    
   ];
 
   return (

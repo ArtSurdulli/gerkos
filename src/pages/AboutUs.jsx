@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import Logo from "../img/agency.jpg";
+import Logo1 from "../img/arrow.avif";
+
 import CTO from "../../src/img/bujar.JPG";
 
 import "./pages.scss";
@@ -24,86 +26,57 @@ function AboutUs() {
               <h2>{t("aboutus-page-title")}</h2>
               {/* <h3>{t("aboutus-page-title-2")}</h3> */}
               <p style={{ fontSize: "16px" }}>{t("aboutus-page-text")}</p>
-              {/* <div className="social-links">
-                <a
-                  target="_blank"
-                  href="http://www.facebook.com"
-                  rel="noopener"
-                >
-                  <FaFacebook />
-                </a>
-
-                <a
-                  target="_blank"
-                  href="http://www.instagram.com"
-                  rel="noopener"
-                >
-                  <FaInstagramSquare />
-                </a>
-
-                <a
-                  target="_blank"
-                  href="http://www.linkedin.com"
-                  rel="noopener"
-                >
-                  <FaLinkedin />
-                </a>
-              </div> */}
-              {/* <Link to="/contactus" className="btn">
-                {t("contactus-page-title")}
-              </Link> */}
             </div>
             <div className="flex-aboutus ">
-              <img src={Logo} alt="" />
+              <img src={Logo1} alt="" />
             </div>
           </div>
         </div>
+      </div>
 
-        <div className="container-aboutus ">
-          <div className="row-aboutus mt-10">
-            <div className="flex-aboutus content-center flex flex-col items-center ">
-              <div
-                className="image-cto"
-                style={{ backgroundImage: `url(${CTO})` }}
-              ></div>
-              <div className="text-container-ceo">
-                <span>Bujar Merovci</span>
-                <br />
-                <span>Gründer & Hauptansprechpartner</span>
-              </div>
+      <div className="about-us">
+        <div className="container-aboutus">
+          <div className="row-aboutus">
+            <div className="flex-aboutus ">
+              <img src={Logo} alt="" />
             </div>
             <div className="flex-aboutus">
               <h2>{t("aboutus-page-team-title")}</h2>
               {/* <h3>{t("aboutus-page-title-2")}</h3> */}
               <p style={{ fontSize: "16px" }}>{t("aboutus-page-text-team")}</p>
-              {/* <div className="social-links">
-                <a
-                  target="_blank"
-                  href="http://www.facebook.com"
-                  rel="noopener"
-                >
-                  <FaFacebook />
-                </a>
+            </div>
+          </div>
 
-                <a
-                  target="_blank"
-                  href="http://www.instagram.com"
-                  rel="noopener"
+          <div className="container-aboutus ">
+            <div className="row-aboutus mt-10">
+              <div className="flex-aboutus content-center flex flex-col items-center">
+                <p>Ihr Hauptansprechpartner</p>
+                <div
+                  className="image-cto flex items-center justify-center"
+                  style={{
+                    width: "350px",
+                    height: "200px",
+                    backgroundColor: "#f0f0f0",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                  }}
                 >
-                  <FaInstagramSquare />
-                </a>
-
-                <a
-                  target="_blank"
-                  href="http://www.linkedin.com"
-                  rel="noopener"
-                >
-                  <FaLinkedin />
-                </a>
-              </div> */}
-              {/* <Link to="/contactus" className="btn">
-                {t("contactus-page-title")}
-              </Link> */}
+                  <span>Foto folgt in Kürze</span>
+                </div>
+                <div className="text-container-ceo">
+                  <span>Bujar Merovci</span>
+                  <br />
+                  <span>Gründer & Hauptansprechpartner</span>
+                  <br />
+                  <span>
+                  +49 152/34152130
+                  <br/>
+                  info@gerkos.de
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>

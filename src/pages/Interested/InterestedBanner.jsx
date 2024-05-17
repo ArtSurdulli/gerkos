@@ -6,7 +6,7 @@ function InterestedBanner() {
   const { t } = useTranslation();
 
   return (
-    <div className="Home-banner">
+    <div className="Home-banner1">
       <div className="bg"></div>
       <h3 className="lg:mt-16">{t("interestedPage-banner-title")}</h3>
       <h3>
