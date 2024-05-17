@@ -6,15 +6,17 @@ import Talent from "../components/ForCompanies/Talent/Talent";
 import Professions from "../components/ForCompanies/Professions/Professions";
 import Steps from "../components/Steps/Steps";
 import Contact from "../components/Contact/Contact";
+import Advantages from "../components/ForCompanies/Advantages/Advantages";
 
 function ForCompanies() {
   return (
     <div>
       <Navbar />
       <Banner />
-      <Talent />
-      <Professions />
-      <Steps />
+      <Advantages />
+      {/* <Talent /> */}
+      {/* <Professions /> */}
+      {/* <Steps /> */}
       <Contact />
       <Footer />
     </div>

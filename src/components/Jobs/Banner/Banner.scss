@@ -1,0 +1,70 @@
+.Jobs-banner {
+  background-image: url("../../../img/jobsbanner.jpg");
+  //   background-image: url("../../img/BannerIMG.jpg");
+  padding: max(5rem, 10vw) max(1rem, 3vw);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: max(1rem, 2vw);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  position: relative;
+  background-attachment: fixed;
+  background-size: 100%;
+  @media (max-width: 1250px) {
+    height: unset;
+  }
+
+  @media (max-width: 670px) {
+    background-position: center;
+    background-attachment: unset;
+    background-size: cover;
+    padding: max(4rem, 15vw) max(1rem, 3vw);
+    align-items: center;
+    text-align: center;
+  }
+
+  .bg {
+    position: absolute;
+    background-color: rgba($color: #fff, $alpha: 0.05);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+    // backdrop-filter: blur(1px);
+
+    @media (max-width: 670px) {
+      background-color: rgba($color: #fff, $alpha: 0.05);
+    }
+  }
+
+  h1,
+  h3,
+  button {
+    position: relative;
+    z-index: 2;
+  }
+
+  h1 {
+    font-weight: 600;
+    font-size: max(25px, 2.75vw);
+    background-color: rgba($color: #fadc18, $alpha: 0.75);
+    text-transform: uppercase;
+    padding: max(0.5rem, 1vw) max(2rem, 5vw);
+    color: #000;
+    border: 1px solid rgba($color: #000000, $alpha: 0.5);
+    border-radius: 5px;
+    backdrop-filter: (5px);
+    position: relative;
+  }
+
+  button {
+    background-color: #fadc18;
+    padding: max(0.5rem, 0.75vw) max(1rem, 1.25vw);
+    font-size: max(18px, 1.5vw);
+    border-radius: 5px;
+    font-weight: 500;
+  }
+}

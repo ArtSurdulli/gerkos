@@ -1,0 +1,68 @@
+.ForCompanies-Advantages {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: max(5rem, 10vw) max(1rem, 5vw);
+  gap: max(0.5rem, 3vw);
+
+  &-flex {
+    display: flex;
+    align-items: stretch;
+    gap: 5%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    row-gap: max(3rem, 3vw);
+
+    @media (max-width: 600px) {
+      row-gap: max(0.5rem, 1vw);
+    }
+  }
+
+  &-card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: max(10px, 0.5vw);
+
+    @media (max-width: 880px) {
+      width: 47.5%;
+    }
+
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+
+    &-top {
+      width: 100%;
+      display: flex;
+      align-items: flex-end;
+      gap: max(5px, 0.25vw);
+      svg {
+        font-size: max(30px, 5vw);
+        color: #fadc18;
+      }
+
+      h3 {
+        font-size: max(18px, 2vw);
+      }
+    }
+
+    p {
+      padding: max(10px, 1vw);
+      margin: max(5px, 0.5vw);
+      border: 5px solid #fadc18;
+      height: 100%;
+      border-radius: 5px;
+      font-size: max(16px, 1vw);
+
+      @media (max-width: 880px) {
+        border: 3px solid #fadc18;
+      }
+    }
+  }
+
+  h1 {
+    font-weight: 600;
+    font-size: max(25px, 2.75vw);
+  }
+}
