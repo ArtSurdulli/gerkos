@@ -50,8 +50,8 @@ const Navbar = () => {
       }`}
     >
       <div
-        className={`flex justify-between items-center h-12 relative mx-auto px-4 transition-all duration-300 ${
-          !scrolled ? "opacity-100 h-10 " : "opacity-0 h-0"
+        className={`flex justify-between items-center relative mx-auto px-4 transition-all duration-300 ${
+          !scrolled ? "opacity-100 h-12 " : "opacity-0 h-0"
         }`}
       >
         <Link to="/" className="flex">
@@ -75,14 +75,14 @@ const Navbar = () => {
           {navItems.map((item) => (
             <li
               key={item.id}
-              className="p-4 text-xs rounded-xl m-2 cursor-pointer duration-300 text-black lg:text-sm	"
+              className="p-4 text-xs rounded-xl m-2 cursor-pointer duration-300 text-black xl:text-sm	"
             >
               <Link to={item.to}>{item.text}</Link>
             </li>
           ))}
         </ul>
         {scrolled && (
-          <div className="flex ml-auto md:ml-0 mr-2 ">
+          <div className="flex ml-auto xl:ml-0 mr-2 ">
             {/* Use ml-auto for all screens, override for sm screens */}
             {scrolled && <LanguageSelector />}
           </div>
