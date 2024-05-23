@@ -43,6 +43,10 @@
         padding: max(10px, 1vw) max(0.5rem, 1.5vw);
         border-radius: 6px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+        @media (max-width: 350px) {
+          font-size: max(17px, 1vw);
+        }
       }
     }
 
@@ -61,6 +65,10 @@
         padding: max(10px, 1vw) max(1rem, 2vw);
         border-radius: 6px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+        @media (max-width: 350px) {
+          font-size: max(17px, 1vw);
+        }
       }
 
       ul {
@@ -72,6 +80,10 @@
         li {
           font-size: max(16px, 1vw);
           font-weight: 600;
+
+          @media (max-width: 350px) {
+            font-size: max(15px, 0.85vw);
+          }
         }
       }
     }
